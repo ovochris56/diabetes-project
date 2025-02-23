@@ -1,5 +1,3 @@
-in process of completion
-
 # Diabetes Analysis and Visualization
 
 ## Project Overview
