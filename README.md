@@ -45,8 +45,6 @@ The main objective of this project is to:
 
 ## Usage
 
-## Usage
-
 In the Jupyter Notebook `diabetes.dataset.ipynb`, I perform the following steps:
 
 1. **Data Loading**: 
