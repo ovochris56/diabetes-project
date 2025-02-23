@@ -88,7 +88,10 @@ Through the analysis, I obtained several key insights:
 - **Visualization 5**:
   - Bar chart showing number of patients per age group, along with number of diabetic vs. non-diabetic patients per group. The dataset contained over 300 patients in their 20s, who displayed an affected
     population % of 21%. Patients in their 30s had an affected population % of 48.76%. Patients have a higher likelihood of being affected by diabetes, as older individuals show a higher likelihood of diabetes.
-  
+
+**Tableau Dashboard 📊**
+https://public.tableau.com/views/DiabetesProject_17402693155810/Dashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 - **Key Insights**:
   - Glucose levels are a key factor in predicting diabetes. Many diabetic individuals have higher glucose levels.
   - BMI and blood pressure are strong indicators of diabetes, with higher values linked to a higher probability of having the disease.
