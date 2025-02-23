@@ -65,7 +65,7 @@ In the Jupyter Notebook `diabetes.dataset.ipynb`, I perform the following steps:
 
 4. **Data Visualization**:
    - Create several plots (e.g., histograms, boxplots, pairplots, scatter plots) to visualize the distribution of key features and their relationships with the target variable (`Outcome`).
-   - Explore the impact of features like `Glucose`, `BMI`, and `Age` on the likelihood of diabetes using data visualizations.
+   - Explore the impact of features like `Glucose`, `BMI`, `Blood Pressuere` , and `Age` on the likelihood of diabetes using data visualizations.
    
    You can run each section of the notebook to interactively explore the dataset and the analysis steps.
 
@@ -74,20 +74,24 @@ In the Jupyter Notebook `diabetes.dataset.ipynb`, I perform the following steps:
 Through the analysis, I obtained several key insights:
 
 - **Visualization 1**: 
-  - The distribution of `Glucose` levels shows that many patients have elevated glucose levels, which correlates with the likelihood of having diabetes. Most patients with high glucose levels (`> 140`) tend to have diabetes (`Outcome = 1`).
-  
+  - Histogram showing the distribution of blood pressure of patients within the dataset. Most patients here have a blood pressure of 70 mg/dL.
+    
 - **Visualization 2**: 
-  - A heatmap of the correlation matrix reveals that `BMI`, `Glucose`, and `Age` are strongly correlated with the target variable `Outcome`. Higher BMI and glucose levels generally increase the likelihood of diabetes.
+  - Boxplot of Average Blood Pressure for Diabetic vs. Non-Diabetic patients shows that Diabetic patients have a higher average blood pressure, which is a risk factor for diabetes.
   
 - **Visualization 3**: 
-  - A boxplot of `BMI` shows that people with diabetes tend to have higher BMI values compared to non-diabetic individuals. This supports the notion that obesity is a significant risk factor for diabetes.
+  - Pie chart showing the percentage of diabetic vs. non-diabetic patients in the dataset. 
   
 - **Visualization 4**: 
-  - A scatter plot of `Age` vs. `Glucose` reveals that older individuals with higher glucose levels are more likely to be diabetic. Age also appears to be an important factor influencing the presence of diabetes.
+  - Boxplot showing average glucose levels between Diabetic and Non-diabetic patients. Diabetic patients have an average blood glucose level >140.
 
+- **Visualization 5**:
+  - Bar chart showing number of patients per age group, along with number of diabetic vs. non-diabetic patients per group. The dataset contained over 300 patients in their 20s, who displayed an affected
+    population % of 21%. Patients in their 30s had an affected population % of 48.76%. Patients have a higher likelihood of being affected by diabetes, as older individuals show a higher likelihood of diabetes.
+  
 - **Key Insights**:
   - Glucose levels are a key factor in predicting diabetes. Many diabetic individuals have higher glucose levels.
-  - BMI is a strong indicator of diabetes, with higher values linked to a higher probability of having the disease.
+  - BMI and blood pressure are strong indicators of diabetes, with higher values linked to a higher probability of having the disease.
   - Age is a significant factor, with older individuals showing a higher likelihood of diabetes.
 
 These insights provide a foundation for future modeling work, where predictive algorithms could be developed to classify individuals based on their likelihood of developing diabetes.
